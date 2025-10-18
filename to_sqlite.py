@@ -2,21 +2,21 @@ import sqlite3
 import pandas as pd
 from pathlib import Path
 
-# File paths
+# paths
 CLEAN = Path("data/nba_cleaned.csv")
 DB = Path("data/nba.sqlite")
 
-# Load cleaned data
+# Load data
 df = pd.read_csv(CLEAN)
 print("Loading DataFrame:", df.shape)
 
-# Create SQLite connection
+# SQLite connection
 con = sqlite3.connect(DB)
 
-# Write DataFrame into SQLite
+# SQLite
 df.to_sql("draft_stats", con, if_exists="replace", index=False)
 
-# Basic checks
+# check
 rows = pd.read_sql("SELECT COUNT(*) AS total_rows FROM draft_stats;", con)
 cols = pd.read_sql("PRAGMA table_info(draft_stats);", con)
 

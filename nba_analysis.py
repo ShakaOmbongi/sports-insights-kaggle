@@ -9,7 +9,7 @@ os.makedirs(EXPORT_PATH, exist_ok=True)
 # Connect to the database
 conn = sqlite3.connect(DB_PATH)
 
-# --- STUDY 2: TEAM DRAFT EFFICIENCY ---
+# STUDY 2
 team_query = """
 SELECT 
     team,
@@ -30,7 +30,7 @@ print(team_df.head(10))
 team_df.to_csv(os.path.join(EXPORT_PATH, 'team_draft_efficiency.csv'), index=False)
 
 
-# --- STUDY 3: PLAYER EFFICIENCY INDEX ---
+# STUDY 3
 player_query = """
 SELECT 
     player,
