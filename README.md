@@ -12,7 +12,7 @@ The goal of this project is to explore whether players selected earlier in the N
 ---
 
 ## DashBoard on Tableau
- View Interactive Dashboard on Tableau Public  (https://public.tableau.com/app/profile/shaka.ombongi/viz/NBA_Draft_Value_Analysis/Dashboard1?publish=yes)
+ View Interactive Dashboard on Tableau Public (https://public.tableau.com/app/profile/shaka.ombongi/viz/NBA_Draft_Value_Analysis/Dashboard1?publish=yes)
 
 ---
 

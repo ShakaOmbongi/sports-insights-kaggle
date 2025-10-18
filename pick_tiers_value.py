@@ -29,3 +29,4 @@ con.close()
 print(df)
 df.to_csv("data/sql_exports/pick_tiers_value.csv", index=False)
 print("\nSaved -> data/sql_exports/pick_tiers_value.csv")
+  

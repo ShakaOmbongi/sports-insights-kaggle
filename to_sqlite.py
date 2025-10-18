@@ -26,3 +26,4 @@ print("\nFirst 10 columns:")
 print(cols.head(10))
 
 con.close()
+ 
